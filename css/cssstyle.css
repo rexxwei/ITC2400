@@ -1,0 +1,153 @@
+@charset "UTF-8";
+.navifont{
+	text-align: center;
+	width: 9%;
+	font-family: actor;
+	color: #363B37;
+	font-style: normal;
+	font-weight: 400;
+}
+.navihl{
+	text-align: center;
+	width: 9%;
+	font-family: actor;
+	color: #69E97F;
+	font-style: normal;
+	font-weight: 400;
+}
+.navib{
+	text-align: center;
+	width:5%;
+	font-family: "Source Sans Pro";
+	color: #094F15;
+}
+.container {
+	background-color: #FFFFFF;
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+	border-bottom-width: 0px;
+	padding-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+}
+.primary_header {
+	width: 100%;
+	background-color: #B1F483;
+	padding-bottom: 0px;
+	clear: left;
+	text-align: left;
+}
+.img-box{
+	padding-bottom:0%;
+}
+.img-box img{
+	position:inherit;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	width:100%;
+	margin:auto;
+}
+
+.left_article_h3 {
+	padding-left: 3%;
+	padding-right: 5%;
+	margin-top: 5%;
+	color: #4BAF43;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+.left_article {
+	background-color: #FFFFFF;
+	padding-left: 3%;
+	padding-right: 2%;
+	width: 60%;
+	float: left;
+	font-family: "Source Sans Pro";
+	/*color: #343434;*/
+	padding-bottom: 15px;
+}
+.right_article {
+	width: 35%;
+	float: right;
+	background-color: #FFFFFF;
+}
+.placeholder {
+	width: 80%;
+	margin-top: 22PX;
+	margin-right: 0px;
+	margin-bottom: 22PX;
+	margin-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 10px;
+	max-width: 360px;
+	max-height: 240px;
+	height: auto;
+}
+.left_half {
+	background-color: #52BAD5;
+}
+.right_half {
+	background-color: #01B2D1;
+	color: #FFFFFF;
+	font-family: "Source Sans Pro";
+	text-align: center;
+	font-weight: bold;
+}
+a:link {text-decoration: none; color: #565656;}
+a:visited {text-decoration: none; color: #565656;}
+a:hover {text-decoration: none; color: #44F142;}
+a:active {text-decoration: none; color: #44F142;}
+
+/* ------------------Media Query Part-----------*/
+/* Small Screen less than 800px */
+@media (max-width: 800px){
+  .left_article_h3
+  {
+	color: #308B4E;
+	font-size: 24px;
+  }
+  .left_article 
+  {
+	color: #308B4E;
+	font-size: 18px;
+  }
+  .placeholder img{
+	position:inherit;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	width:80%;
+	margin:auto;
+  }	
+}
+/* Big Screen larger than 800px */
+@media (min-width: 801px){
+  .left_article_h3
+  {
+	color: #474747;
+	font-size: 35px;
+  }
+  .left_article
+  {
+	color: #3E3E3E;
+	font-size: 21px;
+  }
+  .placeholder img{
+	position:inherit;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	width:100%;
+	margin:auto;
+   }
+}
+

@@ -1,0 +1,125 @@
+@charset "UTF-8";
+
+#layout ul {
+list-style: none;
+   }
+
+#layout li {
+    float: left;
+    width: 160px;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    text-align: center;
+    }
+
+#layout a {
+    text-decoration: none;
+    }
+
+#layout a:hover {
+    color: #FF0000;
+    text-decoration: underline;
+    display: block;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    }
+
+#layout img {
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    }
+
+.ctext {
+	text-align: center;
+	}
+
+.mybutton{
+	width: 60px;
+	height: 20px;
+	line-height: 10px;
+	color: #000000;
+	display: block;
+	margin: auto;
+	margin-top: 5px;
+	border-radius: 7px;
+	font-size: 13px;
+	display: inline-block;
+}
+
+.navifont{
+	text-align: center;
+	width: 9%;
+	font-family: actor;
+	color: #363B37;
+	font-style: normal;
+	font-weight: 400;
+}
+.navihl{
+	text-align: center;
+	width: 9%;
+	font-family: actor;
+	color: #69E97F;
+	font-style: normal;
+	font-weight: 400;
+}
+.navib{
+	text-align: center;
+	width:5%;
+	font-family: "Source Sans Pro";
+	color: #094F15;
+}
+
+.primary_header {
+	width: 100%;
+	background-color: #B1F483;
+	padding-bottom: 0px;
+	clear: left;
+	text-align: left;
+}
+.img-box{
+	padding-bottom:0%;
+}
+.img-box img{
+	position:inherit;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	width:100%;
+	margin:auto;
+}
+.article_hd {
+	font-family: actor;
+	text-align: center;
+	font-weight: 800;
+	text-transform: uppercase;
+	font-weight: 400;
+	padding-left: 3%;
+	padding-right: 3%;
+	margin-top: 5%;
+	color: #4BAF43;
+	font-style: normal;
+}
+.article {
+	background-color: #FFFFFF;
+	padding-left: 1%;
+	padding-right: 1%;
+	width: 95%;
+	float: left;
+	font-family: antic;
+	padding-top: 25px;
+	padding-bottom: 15px;
+	font-style: normal;
+	font-weight: 400;
+}
+
+a:link {text-decoration: none; color: #565656;}
+a:visited {text-decoration: none; color: #565656;}
+a:hover {text-decoration: none; color: #44F142;}
+a:active {text-decoration: none; color: #44F142;}

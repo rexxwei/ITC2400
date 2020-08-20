@@ -1,0 +1,151 @@
+@charset "UTF-8";
+
+a:link {text-decoration: none; color: #565656;}
+a:visited {text-decoration: none; color: #565656;}
+a:hover {text-decoration: none; color: #44F142;}
+a:active {text-decoration: none; color: #44F142;}
+.navifont{
+	text-align: center;
+	width: 9%;
+	font-family: actor;
+	color: #363B37;
+	font-style: normal;
+	font-weight: 400;
+}
+.navihl{
+	text-align: center;
+	width: 9%;
+	font-family: actor;
+	color: #69E97F;
+	font-style: normal;
+	font-weight: 400;
+}
+.navib{
+	text-align: center;
+	width:5%;
+	font-family: "Source Sans Pro";
+	color: #094F15;
+}
+
+.primary_header {
+	width: 100%;
+	background-color: #B1F483;
+	padding-bottom: 0px;
+	clear: left;
+	text-align: left;
+}
+.img-box{
+	padding-bottom:0%;
+}
+.img-box img{
+	position:inherit;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	width:100%;
+	margin:auto;
+}
+
+.leftbox {
+  width: 20%;
+  height: 100%;
+  float: left;
+}     
+.rightbox {
+	width: 80%;
+	height: 100%;
+	float: right;
+}
+
+.formtable {
+  background-color: #f8f9f9;
+  border: 0px solid black;
+  border-collapse: separate;
+  border-spacing: 30px 20px;
+}
+
+.leftpic {
+  float: right;
+  width:85%;
+}
+
+.tdup {
+  vertical-align:top;
+}
+
+.tdright {
+  text-align:center;
+}
+
+.boldfont {
+	font-weight: bold;
+	color: #424040;
+}
+
+.itfont {
+  font-style:italic;
+  color: #999898;
+	text-align:right;
+}
+
+.mybutton{
+	width: 60px;
+	height: 20px;
+	line-height: 10px;
+	color: #000000;
+	display: block;
+	margin: auto;
+	margin-top: 5px;
+	border-radius: 7px;
+	font-size: 13px;
+	display: inline-block;
+}
+
+
+/* ------------------Media Query Part-----------*/
+/* Small Screen less than 800px */
+@media (max-width: 800px){
+  .left_article_h3
+  {
+	color: #308B4E;
+	font-size: 20px;
+  }
+  .left_article 
+  {
+	color: #308B4E;
+	font-size: 14px;
+  }
+  .placeholder img{
+	position:inherit;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	width:80%;
+	margin:auto;
+  }	
+}
+/* Big Screen larger than 800px */
+@media (min-width: 801px){
+  .left_article_h3
+  {
+	color: #474747;
+	font-size: 25px;
+  }
+  .left_article
+  {
+	color: #3E3E3E;
+	font-size: 16px;
+  }
+  .placeholder img{
+	position:inherit;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	width:100%;
+	margin:auto;
+   }
+}
+
